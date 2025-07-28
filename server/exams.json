@@ -1,0 +1,94 @@
+{
+    "jee": {
+        "title": "JEE (Main & Advanced)",
+        "description": "Joint Entrance Examination for Engineering",
+        "subCategories": {
+            "jee_main_2022": {
+                "title": "JEE Main 2022",
+                "file": "math_questions"
+            },
+            "jee_main_2021": {
+                "title": "JEE Main 2021",
+                "file": "math_questions"
+            },
+            "jee_advanced_2022": {
+                "title": "JEE Advanced 2022",
+                "file": "math_questions"
+            }
+        }
+    },
+    "gate": {
+        "title": "GATE",
+        "description": "Graduate Aptitude Test in Engineering",
+        "subCategories": {
+            "gate_cse_2022": {
+                "title": "GATE CSE 2022",
+                "file": "science_questions"
+            },
+            "gate_cse_2021": {
+                "title": "GATE CSE 2021",
+                "file": "science_questions"
+            }
+        }
+    },
+    "bank_exams": {
+        "title": "Bank Exams",
+        "description": "IBPS, SBI, RBI, and other banking recruitments",
+        "subCategories": {
+            "ibps_po": {
+                "title": "IBPS PO",
+                "subCategories": {
+                    "ibps_po_2022": {
+                        "title": "IBPS PO Prelims 2022",
+                        "file": "history_questions"
+                    },
+                    "ibps_po_2021": {
+                        "title": "IBPS PO Prelims 2021",
+                        "file": "history_questions"
+                    }
+                }
+            },
+            "sbi_clerk": {
+                "title": "SBI Clerk",
+                "subCategories": {
+                    "sbi_clerk_2022": {
+                        "title": "SBI Clerk Prelims 2022",
+                        "file": "history_questions"
+                    }
+                }
+            }
+        }
+    },
+    "ssc": {
+        "title": "SSC",
+        "description": "Staff Selection Commission exams like CGL, CHSL",
+        "subCategories": {
+            "ssc_cgl_2022": {
+                "title": "SSC CGL Tier 1 2022",
+                "file": "history_questions"
+            },
+            "ssc_cgl_2021": {
+                "title": "SSC CGL Tier 1 2021",
+                "file": "history_questions"
+            }
+        }
+    },
+    "neet": {
+        "title": "NEET",
+        "description": "National Eligibility cum Entrance Test for Medical",
+        "subCategories": {
+            "neet_2022": {
+                "title": "NEET 2022",
+                "file": "science_questions"
+            },
+            "neet_2021": {
+                "title": "NEET 2021",
+                "file": "science_questions"
+            }
+        }
+    },
+    "others": {
+        "title": "Other Exams",
+        "description": "Choose from a list of subjects"
+    }
+}

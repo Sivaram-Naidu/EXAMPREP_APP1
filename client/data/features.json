@@ -1,0 +1,17 @@
+[
+    {
+        "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-8 w-8\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z\" /></svg>",
+        "title": "Master the Clock",
+        "description": "Our timed, realistic exam simulations mean you'll never be surprised by the timer again. Practice pacing until it's second nature."
+    },
+    {
+        "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-8 w-8\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z\" /></svg>",
+        "title": "Find & Fix Your Weak Spots",
+        "description": "Don't just learn *if* you're wrong, learn *why*. Our instant, step-by-step feedback helps you understand the concept, not just the answer."
+    },
+    {
+        "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-8 w-8\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 7h8m0 0v8m0-8l-8 8-4-4-6 6\" /></svg>",
+        "title": "Know Exactly Where You Stand",
+        "description": "Simple, visual analytics track your progress by topic. Watch your scores improve and focus your energy where it counts the most."
+    }
+]

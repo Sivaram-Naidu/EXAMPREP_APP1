@@ -1,0 +1,22 @@
+[
+    {
+        "question": "In which year did the Titanic sink?",
+        "options": [
+            "1905",
+            "1912",
+            "1918",
+            "1923"
+        ],
+        "correctAnswer": "1912"
+    },
+    {
+        "question": "Who was the first President of the United States?",
+        "options": [
+            "Abraham Lincoln",
+            "Thomas Jefferson",
+            "John Adams",
+            "George Washington"
+        ],
+        "correctAnswer": "George Washington"
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "question": "What is the chemical symbol for water?",
+        "options": [
+            "H2O",
+            "CO2",
+            "O2",
+            "NaCl"
+        ],
+        "correctAnswer": "H2O"
+    },
+    {
+        "question": "What planet is known as the Red Planet?",
+        "options": [
+            "Earth",
+            "Mars",
+            "Jupiter",
+            "Saturn"
+        ],
+        "correctAnswer": "Mars"
+    }
+]
