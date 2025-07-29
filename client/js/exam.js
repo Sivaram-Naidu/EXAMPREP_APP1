@@ -1,9 +1,14 @@
 import { appState, resetExamState } from './state.js';
-import { showView, renderQuestion, generateQuestionNavGrid, updateTimerDisplay, renderResults, resetExamUI } from './ui.js';
+import { showView, renderQuestion, generateQuestionNavGrid, updateTimerDisplay, renderResults, resetExamUI, renderExamSelection, showExamInProgress } from './ui.js';
+
+// IMPORTANT: UPDATE THIS URL
+// Replace this with the URL of your deployed backend server from Render
+const API_BASE_URL = 'https://examprep-app1.onrender.com'; // Example URL
 
 async function fetchQuestions(subject) {
     try {
-        const response = await fetch(`https://examprep-app1.onrender.com/${subject}`);
+        // Use the API_BASE_URL variable to make the request
+        const response = await fetch(`${API_BASE_URL}/questions/${subject}`);
         if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
         return await response.json();
     } catch (error) {
@@ -20,9 +25,8 @@ export async function startExam() {
     await fetchAndBegin(selectedSubjectFile, examDuration);
 }
 
-// NEW: This function starts a specific exam directly from the dashboard
+// This function starts a specific exam directly from the dashboard
 export async function startSpecificExam(subject) {
-    // We can use a default duration or get it from state
     const duration = appState.exam.examDuration;
     await fetchAndBegin(subject, duration);
 }
@@ -38,10 +42,7 @@ async function fetchAndBegin(subject, duration) {
     appState.exam.userAnswers = Array(questions.length).fill(null);
     appState.exam.timeLeft = duration;
 
-    // Switch to the exam view and show the questions, hiding the selection part
-    showView('exam-view');
-    document.getElementById('subject-selection-section').classList.add('hidden');
-    document.getElementById('exam-in-progress-section').classList.remove('hidden');
+    showExamInProgress();
 
     generateQuestionNavGrid();
     renderQuestion();
