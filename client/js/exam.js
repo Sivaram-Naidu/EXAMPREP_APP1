@@ -3,7 +3,7 @@ import { showView, renderQuestion, generateQuestionNavGrid, updateTimerDisplay, 
 
 async function fetchQuestions(subject) {
     try {
-        const response = await fetch(`http://localhost:3000/api/questions/${subject}`);
+        const response = await fetch(`https://examprep-app1.onrender.com/${subject}`);
         if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
         return await response.json();
     } catch (error) {

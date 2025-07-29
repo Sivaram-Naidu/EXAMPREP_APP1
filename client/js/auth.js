@@ -1,7 +1,7 @@
 import { setUser, clearUser } from './state.js';
 import { showView, hideAuthModal, updateUserDisplay } from './ui.js';
 
-const API_BASE_URL = 'http://localhost:3000/api';
+const API_BASE_URL = 'https://examprep-app1.onrender.com';
 
 async function apiRequest(endpoint, options) {
     try {
